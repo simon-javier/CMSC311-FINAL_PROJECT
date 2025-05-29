@@ -125,30 +125,30 @@ document-tracking/
 │ ├── language/
 │ └── src/
 ├── assets/ # Static files and frontend dependencies
-│ ├── boxicons/
-│ ├── cdnjs/
+│ ├── boxicons/ # Icon library
+│ ├── cdnjs/ # CDN-stored JS/CSS
 │ ├── cloudflare/
-│ ├── css/
-│ ├── datatable/
+│ ├── css/ # Tailwind/Custom CSS
+│ ├── datatable/ # DataTables plugin
 │ ├── fonts/
-│ ├── img/
+│ ├── img/ # Image assets
 │ ├── jquery/
-│ ├── js/
+│ ├── js/ # JavaScript files
 │ ├── jsdelivr/
 │ ├── loader/
-│ ├── qr-codes/
+│ ├── qr-codes/ # Generated QR code images
 │ ├── stackpath/
-│ ├── sweetalert/
-│ ├── template/
-│ ├── uploaded-pdf/
-│ ├── user-profile/
+│ ├── sweetalert/ # Alert popup assets
+│ ├── template/ # Shared HTML/CSS templates
+│ ├── uploaded-pdf/ # Uploaded documents
+│ ├── user-profile/ # User profile images/data
 │ └── webfonts/
 ├── controller/ # PHP files handling user requests and routing
 ├── model/ # PHP files for DB queries and logic
 ├── phpqrcode/ # Library for QR code generation
 │ ├── bindings/
 │ │ └── tcpdf/
-│ ├── cache/
+│ ├── cache/ # Cached QR codes by mask
 │ └── tools/
 └── views/ # HTML views grouped by user roles
 ├── admin/
@@ -161,7 +161,7 @@ document-tracking/
 │ └── template/
 ├── record_office/
 │ └── template/
-├── settings/
+├── settings/ # System and user settings
 └── sysadmin/
 └── template/
 ```
