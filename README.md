@@ -87,7 +87,7 @@ You can run this project using either **XAMPP (recommended for simplicity)** or 
 
 ---
 
-## ▶️ How to Use / Run the Project - TODO
+## ▶️ How to Use / Run the Project
 ### 🚀 Easy Mode (XAMPP)
 Just start Apache and MySQL, then go to: (http://localhost/document-tracking/)
 
